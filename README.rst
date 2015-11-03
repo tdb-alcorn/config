@@ -1,18 +1,18 @@
-config
+niceconf
 =======================
 
-config is a drop-in replacement for the stdlib RawConfigParser object. It makes
-parsing and using configuration files in your python scripts approximately 10
-times more pythonic and fun.
+niceconf is a dropin replacement for the stdlib RawConfigParser object. It makes
+parsing and using configuration files in your python scripts approximately
+10 times more pythonic and fun.
 
 By default it reads and writes to ~/.conf. This can be changed by setting
 $CONF. If ~/.conf or the file specified in $CONF does not exist, it will be
 created on the first import.
 
-----------------------
+-----------------------
 
 basic usage:
-    >>> from config import config
+    >>> from niceconf import config
     >>> config
     gmail
     my-database
@@ -61,6 +61,11 @@ read in another config file:
     secret-stuff
     first_section_of_other_conf
     second_section_of_other_conf
+
+explode conf into function arguments
+    >>> print_kwargs(**config['gmail'])
+    {'username': 'rick@gmail.com', 'password': 'wubalubadubdub'}
+
 
 Additionally, the config object _is_ an instance of RawConfigParser, so you can
 use any of those methods as before. This means that config is a dropin
