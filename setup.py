@@ -11,10 +11,11 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='config',
-    version='0.1.0',
+    version='0.1',
     description='A nice config package',
     long_description=long_description,
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/tdb-alcorn/config',
+    download_url='https://github.com/tdb-alcorn/config/tarball/0.1',
     author='Thomas Alcorn',
     author_email='tdb.alcorn@gmail.com',
     license='MIT',
