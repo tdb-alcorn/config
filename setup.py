@@ -10,12 +10,12 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='config',
+    name='niceconf',
     version='0.1',
     description='A nice config package',
     long_description=long_description,
-    url='https://github.com/tdb-alcorn/config',
-    download_url='https://github.com/tdb-alcorn/config/tarball/0.1',
+    url='https://github.com/tdb-alcorn/niceconf',
+    download_url='https://github.com/tdb-alcorn/niceconf/tarball/0.1',
     author='Thomas Alcorn',
     author_email='tdb.alcorn@gmail.com',
     license='MIT',
