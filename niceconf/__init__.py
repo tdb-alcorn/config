@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
 
-#                            ___  _
-#                          .' ..](_)
-#  .---.   .--.   _ .--.  _| |_  __   .--./)
-# / /'`\]/ .'`\ \[ `.-. |'-| |-'[  | / /'`\;
-# | \__. | \__. | | | | |  | |   | | \ \._//
-# '.___.' '.__.' [___||__][___] [___].',__`
-#                                   ( ( __))
-
 '''
 niceconf utility
 ~~~~~~~~~~~~~~
@@ -84,8 +76,8 @@ replacement for ConfigParser.
 
 '''
 
-__title__ = 'config'
-__version__ = '0.1'
+__title__ = 'niceconf'
+__version__ = '0.1.2'
 __author__ = 'Thomas Alcorn'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2015 Thomas Alcorn'

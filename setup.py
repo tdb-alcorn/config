@@ -11,11 +11,11 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='niceconf',
-    version='0.1.1',
+    version='0.1.2',
     description='A nice config package',
     long_description=long_description,
     url='https://github.com/tdb-alcorn/niceconf',
-    download_url='https://github.com/tdb-alcorn/niceconf/tarball/0.1.1',
+    download_url='https://github.com/tdb-alcorn/niceconf/tarball/0.1.2',
     author='Thomas Alcorn',
     author_email='tdb.alcorn@gmail.com',
     license='MIT',
